@@ -1,0 +1,16 @@
+# KiCad machine-local / regenerable
+fp-info-cache
+*.kicad_prl
+*.lck
+~*
+*-backups/
+_autosave-*
+*.bak
+#auto_saved_files#
+
+# staging copy - delete this folder
+COMSR-I/
+
+# fab output
+/gerbers/
+/production/

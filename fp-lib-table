@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Mainboard_local")(type "KiCad")(uri "${KIPRJMOD}/Mainboard_local.pretty")(options "")(descr ""))
+  (lib (name "EASYEDA")(type "KiCad")(uri "${KIPRJMOD}/Mainboard_local.pretty")(options "")(descr ""))
+  (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/Mainboard_local.pretty")(options "")(descr ""))
+  (lib (name "TPSnew")(type "KiCad")(uri "${KIPRJMOD}/Mainboard_local.pretty")(options "")(descr ""))
+  (lib (name "LSE")(type "KiCad")(uri "${KIPRJMOD}/Mainboard_local.pretty")(options "")(descr ""))
+  (lib (name "1x04Molex")(type "KiCad")(uri "${KIPRJMOD}/Mainboard_local.pretty")(options "")(descr ""))
+  (lib (name "LEDDD")(type "KiCad")(uri "${KIPRJMOD}/Mainboard_local.pretty")(options "")(descr ""))
+)

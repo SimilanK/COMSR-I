@@ -1,0 +1,367 @@
+(footprint "OSC-SMD_4P-L2.0-W1.6-BL_1XXD"
+		(layer "F.Cu")
+		(uuid "ef4137fe-7962-47aa-97d3-8ec7c488e669")
+		
+		(property "Reference" "REF**"
+			(at -0.615183 -4.546697 135)
+			(layer "F.Fab")
+			(uuid "10f248f3-158c-4b20-ae0d-513285d7e3b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1XXD32000MBA"
+			(at 0 4.6 135)
+			(layer "F.Fab")
+			(uuid "ce629017-87d7-474f-9a1d-86819dbe661e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_KDS-Daishinku-KDS-1XXD32000MBA_C253694.html"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f628bed2-ffcb-4991-914c-6160e629c500")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 135)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1414f93-cc3f-4cb2-9fd7-6f94fc1d1ccd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C253694"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d65d9969-6510-4d5b-a6b8-451299e9d416")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd651df5-04f1-40a9-965f-de9ef12da8f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ba73187-d85d-459a-abbc-29e5ccfa2783")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1032b1ac-d7c2-4122-ae9b-656f601de7ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "874181d1-2c63-43d1-92f0-3bd6693de75a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d09490bb-03ee-46b6-a294-02083b2dedc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part" ""
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77de9de8-d409-468b-a806-03b1e416e705")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Aliexpress" "-"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d90a29aa-73c3-430d-be79-de10f5641c55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part No." "-"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd7a351e-e60e-4f62-8497-c3d10a0e090d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JAKElectronics" ""
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad06ef7b-53db-41b4-a9fd-eb1bce48025f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C253694"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3c8ed48-778f-460d-ac6e-dd6ca42ca2d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_line
+			(start 1.5 -0.9)
+			(end 1.5 0.9)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "691a2c98-66a4-4cb7-bd1e-ccc48b7ceca1")
+		)
+		(fp_line
+			(start -0.32 -0.9)
+			(end 0.31 -0.9)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "601376e0-d1b1-40e7-a3ef-4db7517447f2")
+		)
+		(fp_line
+			(start -1.5 -0.9)
+			(end -1.5 0.9)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0bc91e7a-3245-400b-b367-fb78cff02cfc")
+		)
+		(fp_line
+			(start -0.32 0.9)
+			(end 0.31 0.9)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "896b9e08-435c-4195-ab69-d816ce725678")
+		)
+		(fp_circle
+			(center -1.5 1.4)
+			(end -1.38 1.4)
+			(stroke
+				(width 0.24)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "a40105f6-c2ca-4332-949d-b4f7cc23e4e9")
+		)
+		(fp_circle
+			(center -0.9 1)
+			(end -0.78 1)
+			(stroke
+				(width 0.24)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "26431c35-7c21-42f9-a488-e53d61af1256")
+		)
+		(fp_circle
+			(center -1 0.8)
+			(end -0.97 0.8)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c529910a-75e3-4f24-ba70-dac541a432c8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 135)
+			(layer "F.Fab")
+			(uuid "cbad7c1c-557b-4fb4-8203-70ff4172d642")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.9 0.6 45)
+			(size 0.9 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "GND")
+			(pintype "unspecified")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 1)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges no)
+				(filter_ratio 0.9)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "3977abca-c5a7-4975-8bde-a75d9b8e0dd0")
+		)
+		(pad "2" smd rect
+			(at 0.9 0.6 45)
+			(size 0.9 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "GND")
+			(pintype "unspecified")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 1)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges no)
+				(filter_ratio 0.9)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "21483a42-af73-41f2-b1a8-542678fef6e1")
+		)
+		(pad "3" smd rect
+			(at 0.9 -0.6 45)
+			(size 0.9 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "Output")
+			(pintype "unspecified")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 1)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges no)
+				(filter_ratio 0.9)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "142ea851-237a-4d71-a549-264a947232d0")
+		)
+		(pad "4" smd rect
+			(at -0.9 -0.6 45)
+			(size 0.9 0.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "VCC")
+			(pintype "unspecified")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 1)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges no)
+				(filter_ratio 0.9)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "6d47ce13-a019-4e67-b9d1-7e2f48627cd9")
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/OSC-SMD_4P-L2.0-W1.6-H0.7-BL_1XXD.wrl"
+			(offset
+				(xyz -0 0 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

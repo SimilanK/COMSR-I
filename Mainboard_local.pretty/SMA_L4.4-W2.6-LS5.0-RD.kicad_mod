@@ -1,0 +1,330 @@
+(footprint "SMA_L4.4-W2.6-LS5.0-RD"
+		(layer "F.Cu")
+		(uuid "9c17e6a9-6c5c-42e7-8452-1e4020077ebc")
+		
+		(property "Reference" "REF**"
+			(at 0 -4 270)
+			(layer "F.Fab")
+			(uuid "fcd3b6ed-ba4f-4ece-83ee-a5dcd3630de9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "550mV@3A"
+			(at 0 4 270)
+			(layer "F.Fab")
+			(uuid "601f5fb2-bb94-4edd-a0e1-bafad5124fc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_High-Diode-SS34_C466502.html"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ca505dd-2e05-4ee2-8967-2a9fb26d7814")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "-55℃~+125℃ 1 Independent 3A 40V 500uA@40V 550mV@3A 70A SMAG Schottky Diodes ROHS"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e19a2926-f906-4787-9d12-cfbb4307a898")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C466502"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "367c4d21-0ac3-4c81-bdb7-43625ca6e332")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Name" "SS34_C466502"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1a42d5d-e5e2-48d1-9979-e76293ec6117")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6738428-1748-4494-b27b-d667974e9bce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0be75ba7-45e4-4e57-9886-b8801853a525")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46e44d96-08ab-4e03-8ab0-ff5e83b53eb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86a42b5f-db3f-4a6c-9dd0-2eed30a3213c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0b52388-2a0f-457c-bae6-79841fc639dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04dd6eaf-43c9-472c-9947-0cc820153a7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Aliexpress" "-"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61178e6e-fcf2-477c-957c-98bad97bb415")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part No." "-"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e190676b-7c22-41f5-ac80-824dc36c3064")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JAKElectronics" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c895f2f-0704-4c51-981d-ee80f1e76bc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" " C466502"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35bcf38b-317e-4f6c-862c-eeab08f7a79c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_line
+			(start -2.73 1.4)
+			(end 2.73 1.4)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b4077cf1-d4c4-4e4a-8b11-0d3a3a8a699b")
+		)
+		(fp_line
+			(start 2.73 1.4)
+			(end 2.73 1)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8dd683eb-ee06-4771-b9f9-861fd2216058")
+		)
+		(fp_line
+			(start -2.73 -1.4)
+			(end 2.73 -1.4)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b5370379-5520-4ce3-8bb6-2a02aa8b8e69")
+		)
+		(fp_line
+			(start -1.2 -1.4)
+			(end -1.2 1.4)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "27fea970-4392-4704-a68b-b87295adb233")
+		)
+		(fp_line
+			(start 2.73 -1.4)
+			(end 2.73 -1)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "465de082-976e-4b2a-aa79-4ebe4baa3205")
+		)
+		(fp_circle
+			(center -2.55 1.25)
+			(end -2.52 1.25)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "a547d27f-d685-48d3-afdf-dd72daf57abb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(uuid "6b502523-f935-4ed7-bac8-9102ccc6c5f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.19 0 270)
+			(size 1.8 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 1)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges no)
+				(filter_ratio 0.9)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "32667d6a-cebf-4b8b-b190-367e8054fceb")
+		)
+		(pad "2" smd rect
+			(at 2.19 0 270)
+			(size 1.8 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 1)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges no)
+				(filter_ratio 0.9)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "5b93a0e7-f397-4d05-9519-85f74b373a1d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SMA_L4.4-W2.6-LS5.0-RD.wrl"
+			(offset
+				(xyz 0 -0 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)

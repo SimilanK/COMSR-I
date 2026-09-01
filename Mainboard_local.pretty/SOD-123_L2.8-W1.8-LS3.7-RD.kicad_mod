@@ -1,0 +1,407 @@
+(footprint "SOD-123_L2.8-W1.8-LS3.7-RD"
+		(layer "F.Cu")
+		(uuid "37c5ad8c-98bc-41e4-a4bf-ebc183558a86")
+		
+		(property "Reference" "REF**"
+			(at 0 -2.474874 45)
+			(layer "F.Fab")
+			(uuid "0395355f-6740-432a-a4c8-a5c5b0454d26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MMSZ4683T1G"
+			(at 0 4 45)
+			(layer "F.Fab")
+			(uuid "3065a196-20ba-4731-b86d-f8e72ea08930")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Zener-Diodes_ON-Semicon_MMSZ4683T1G_ON-Semicon-ON-MMSZ4683T1G_C235985.html"
+			(at 0 0 45)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a250f686-06e0-4477-b8d4-c375e28adce2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "MMSZ4683T1G"
+			(at 0 0 45)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21ded807-b219-494d-bda6-64e0ead72916")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C235985"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21d296ff-72cb-4723-847b-1c28d116cd63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e935a85f-9530-4958-abbe-9b5ba0482654")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5c717cc-c1f7-4797-b244-ef073856d4b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97092a83-d581-4397-a419-80f1ef46f8ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "808ec352-3bf8-4d78-837c-8d390e2f1eff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cb3ce98-114a-48ec-9211-5e2f88ddd413")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part" ""
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce22df34-f815-4163-ba59-23af255e8bbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Aliexpress" "-"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0b1cba0-8891-431c-bcea-6dcac26a0815")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part No." "MMSZ4683T1GOSCT-ND"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e03fde6c-4185-4ce0-899a-7828f0e09e75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JAKElectronics" ""
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "585507f7-2d33-4a8d-83cd-e63ca8fbc672")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "-"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4439cd21-5283-4d75-82a8-a607049b3c6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_line
+			(start -1.58 -0.87)
+			(end -1.41 -0.869999)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7dba59be-86cd-4ad7-8ed4-06e3915f77e6")
+		)
+		(fp_line
+			(start -1.58 -0.76)
+			(end -1.58 -0.87)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f77b84ca-3f2f-4836-a9ab-d5902a8d177d")
+		)
+		(fp_line
+			(start -1.58 -0.76)
+			(end -1.41 -0.76)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7bbfa4aa-1b42-4951-afd8-fa3c838b1364")
+		)
+		(fp_line
+			(start -1.41 -0.869999)
+			(end -1.41 -0.76)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "72d54124-584d-4d55-b1d2-446eb5ca2ab7")
+		)
+		(fp_line
+			(start -1.41 -0.869999)
+			(end 1.41 -0.869999)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4139e78d-25c5-4aec-9064-673ac9379653")
+		)
+		(fp_line
+			(start -0.97 -0.869999)
+			(end -0.97 0.869999)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "58ae9291-3136-4c29-bd13-4649c842e2c0")
+		)
+		(fp_line
+			(start -0.830001 -0.87)
+			(end -0.830001 0.87)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7e800f42-c3ca-4c81-84c5-53d343cfe874")
+		)
+		(fp_line
+			(start -1.58 0.76)
+			(end -1.41 0.76)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2614ee1c-f8e6-427a-b352-ce67ad26941d")
+		)
+		(fp_line
+			(start -1.58 0.87)
+			(end -1.58 0.76)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6db647c3-78c8-40b5-ac60-d76ee79c577d")
+		)
+		(fp_line
+			(start -1.41 0.76)
+			(end -1.41 0.869999)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d776ef9a-0280-41d1-8f1e-8eaad1e98e17")
+		)
+		(fp_line
+			(start -1.41 0.869999)
+			(end -1.58 0.87)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5e383344-9df1-4031-b189-bc86ae78b698")
+		)
+		(fp_line
+			(start -1.41 0.869999)
+			(end 1.41 0.869999)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5151ac7e-647d-4684-826f-627fb89f040d")
+		)
+		(fp_line
+			(start 1.41 -0.869999)
+			(end 1.41 -0.7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "43efeb74-1368-434b-81bd-e7166477dbbb")
+		)
+		(fp_line
+			(start 1.41 0.869999)
+			(end 1.41 0.7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e4ebbf4e-2b5d-4165-b8c2-02c0260b34b5")
+		)
+		(fp_circle
+			(center -1.85 0.900001)
+			(end -1.82 0.9)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7ca08e63-3af5-4b35-8dbb-29676dcb87df")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 45)
+			(layer "F.Fab")
+			(uuid "7ded084c-2d57-4322-9bc6-2422d201bf3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.689999 0 45)
+			(size 0.95 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "C")
+			(pintype "unspecified")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 1)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges no)
+				(filter_ratio 0.9)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "ac58cf54-1bf5-468d-bb31-eb9a3f2ba720")
+		)
+		(pad "2" smd rect
+			(at 1.689999 0 45)
+			(size 0.95 1.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(pinfunction "A")
+			(pintype "unspecified")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 1)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges no)
+				(filter_ratio 0.9)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
+			(uuid "3aa7f281-354e-49b0-8519-916c6d347ccc")
+		)
+		(embedded_fonts no)
+		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOD-123_L2.8-W1.8-LS3.7-RD.wrl"
+			(offset
+				(xyz 0 -0 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
