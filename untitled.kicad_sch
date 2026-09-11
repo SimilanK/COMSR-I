@@ -629,7 +629,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "12931403"
+			(property "Stock" "20208285"
 				(at 0 0 0)
 				(effects
 					(font
@@ -885,7 +885,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "10588972"
+			(property "Stock" "24372091"
 				(at 0 0 0)
 				(effects
 					(font
@@ -912,7 +912,7 @@
 					(hide yes)
 				)
 			)
-			(property "Minimum Qty" "5"
+			(property "Minimum Qty" "20"
 				(at 0 0 0)
 				(effects
 					(font
@@ -921,7 +921,7 @@
 					(hide yes)
 				)
 			)
-			(property "Attrition Qty" "0"
+			(property "Attrition Qty" "10"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1155,7 +1155,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "1745486"
+			(property "Stock" "1792808"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1602,7 +1602,7 @@
 	)
 	(rectangle
 		(start 26.67 88.265)
-		(end 179.705 144.78)
+		(end 179.705 142.24)
 		(stroke
 			(width 0)
 			(type default)
@@ -1612,7 +1612,7 @@
 		)
 		(uuid 658286cc-af71-4810-b767-505aa1a2729f)
 	)
-	(text "MS5607 - Absolute Pressure Barometer (SPI)"
+	(text "B3 · MS5607 - Absolute Pressure Barometer (SPI)"
 		(exclude_from_sim no)
 		(at 49.53 34.925 0)
 		(effects
@@ -1622,7 +1622,7 @@
 		)
 		(uuid "1ff60cba-31a9-428a-8477-dd2902bafd7e")
 	)
-	(text "ICM45686 - IMU (SPI)"
+	(text "B3 · ICM45686 - IMU (SPI)"
 		(exclude_from_sim no)
 		(at 38.1 86.36 0)
 		(effects
@@ -2302,7 +2302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12931403"
+		(property "Stock" "20208285"
 			(at 32.385 118.11 0)
 			(effects
 				(font
@@ -2569,7 +2569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1745486"
+		(property "Stock" "1792808"
 			(at 54.61 68.58 0)
 			(effects
 				(font
@@ -3353,7 +3353,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744 (OUT OF STOCK)"
+		(property "LCSC" "C25744"
 			(at 156.845 114.3 0)
 			(effects
 				(font
@@ -3362,7 +3362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "10588972"
+		(property "Stock" "24372091"
 			(at 156.845 114.3 0)
 			(effects
 				(font
@@ -3389,7 +3389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Minimum Qty" "5"
+		(property "Minimum Qty" "20"
 			(at 156.845 114.3 0)
 			(effects
 				(font
@@ -3398,7 +3398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Attrition Qty" "0"
+		(property "Attrition Qty" "10"
 			(at 156.845 114.3 0)
 			(effects
 				(font
@@ -3854,7 +3854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12931403"
+		(property "Stock" "20208285"
 			(at 37.465 55.88 0)
 			(effects
 				(font
@@ -4188,7 +4188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "12931403"
+		(property "Stock" "20208285"
 			(at 169.545 123.19 0)
 			(effects
 				(font

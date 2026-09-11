@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.35
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -123,12 +123,12 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.2,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -136,7 +136,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -248,12 +248,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|1917700|1333500|c412ed71-c888-405d-84f0-22e0c95b0383|17109838-bc67-4e1c-971f-cbe68b00d64f|/1f0f75a1-1d31-43c9-b0ad-8555040f61e7|/1f0f75a1-1d31-43c9-b0ad-8555040f61e7|/1f0f75a1-1d31-43c9-b0ad-8555040f61e7",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -502,18 +497,17 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Battery",
         "pcb_color": "rgba(200, 0, 0, 0.400)",
-        "priority": 4,
+        "priority": 1,
         "schematic_color": "rgba(200, 0, 0, 0.400)",
-        "track_width": 0.8,
+        "track_width": 1.0,
         "via_diameter": 0.9,
         "via_drill": 0.45,
         "wire_width": 6
@@ -522,14 +516,13 @@
         "bus_width": 12,
         "clearance": 0.3,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "HS_Clock",
         "pcb_color": "rgba(255, 200, 0, 0.400)",
-        "priority": 8,
+        "priority": 5,
         "schematic_color": "rgba(255, 200, 0, 0.400)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -540,14 +533,13 @@
         "bus_width": 12,
         "clearance": 0.25,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(255, 100, 0, 0.400)",
-        "priority": 5,
+        "priority": 2,
         "schematic_color": "rgba(255, 100, 0, 0.400)",
         "track_width": 0.5,
         "via_diameter": 0.7,
@@ -558,16 +550,15 @@
         "bus_width": 12,
         "clearance": 0.4,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Pyro",
         "pcb_color": "rgba(255, 0, 255, 0.400)",
-        "priority": 3,
+        "priority": 0,
         "schematic_color": "rgba(255, 0, 255, 0.400)",
-        "track_width": 1.0,
+        "track_width": 1.5,
         "via_diameter": 1.0,
         "via_drill": 0.5,
         "wire_width": 6
@@ -576,16 +567,15 @@
         "bus_width": 12,
         "clearance": 0.25,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Servo",
         "pcb_color": "rgba(0, 160, 80, 0.400)",
-        "priority": 6,
+        "priority": 3,
         "schematic_color": "rgba(0, 160, 80, 0.400)",
-        "track_width": 0.6,
+        "track_width": 0.8,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -593,17 +583,16 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.35,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 120, 255, 0.400)",
-        "priority": 7,
+        "priority": 4,
         "schematic_color": "rgba(0, 120, 255, 0.400)",
-        "track_width": 0.35,
+        "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -694,6 +683,10 @@
       {
         "netclass": "HS_Clock",
         "pattern": "LSE_IN"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(U2-SW)"
       }
     ]
   },

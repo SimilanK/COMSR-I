@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CURSR-V Main Board — Datasheets</title>
+<style>
+  :root{
+    --bg:#f7f8fa; --card:#ffffff; --ink:#1a1d21; --muted:#5c6773;
+    --line:#e3e7ec; --accent:#2563eb; --accent-soft:#eef3ff; --head:#0f172a;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{--bg:#0f1216;--card:#171b21;--ink:#e6e9ee;--muted:#9aa4b2;
+      --line:#262c35;--accent:#6ea8fe;--accent-soft:#1b2432;--head:#e6e9ee;}
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:1000px;margin:0 auto;padding:32px 20px 64px}
+  h1{font-size:24px;margin:0 0 4px;color:var(--head)}
+  .sub{color:var(--muted);margin:0 0 24px;font-size:14px}
+  .note{background:var(--accent-soft);border:1px solid var(--line);border-radius:10px;
+    padding:12px 16px;margin:0 0 28px;font-size:13.5px;color:var(--ink)}
+  h2{font-size:14px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);
+    margin:28px 0 8px;border-bottom:1px solid var(--line);padding-bottom:6px}
+  .grid{display:grid;grid-template-columns:1fr;gap:8px}
+  .row{display:grid;grid-template-columns:70px 1fr auto;gap:14px;align-items:center;
+    background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 14px}
+  .ref{font-weight:600;color:var(--accent);font-size:13px}
+  .part{font-size:14px}
+  .part b{display:block;font-weight:600}
+  .part span{color:var(--muted);font-size:12.5px}
+  a.dl{white-space:nowrap;text-decoration:none;color:#fff;background:var(--accent);
+    padding:7px 14px;border-radius:8px;font-size:13px;font-weight:600}
+  a.dl:hover{filter:brightness(1.08)}
+  a.dl.alt{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+  @media(max-width:560px){.row{grid-template-columns:1fr auto;}.ref{grid-column:1}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>CURSR-V Main Board — Component Datasheets</h1>
+  <p class="sub">Key ICs, sensors, regulators and specialty parts from the BOM. Generic resistors and capacitors are omitted.</p>
+  <div class="note">
+    Click a button to open the datasheet PDF in your browser, then save it into this
+    <b>data sheets</b> folder. Links marked <b>LCSC</b> point to LCSC's datasheet endpoint (opens the PDF);
+    <b>page</b> links open the product page where a "Datasheet" button gives the PDF.
+  </div>
+
+  <h2>Microcontroller & Sensors</h2>
+  <div class="grid">
+    <div class="row"><span class="ref">U1</span><div class="part"><b>STM32U575VGTx</b><span>Ultra-low-power Arm Cortex-M33 MCU · STMicroelectronics</span></div><a class="dl" href="https://www.st.com/resource/en/datasheet/stm32u575ag.pdf" target="_blank" rel="noopener">Datasheet</a></div>
+    <div class="row"><span class="ref">U9</span><div class="part"><b>ICM-45686</b><span>6-axis IMU (gyro + accel) · TDK InvenSense</span></div><a class="dl" href="https://www.lcsc.com/datasheet/lcsc_datasheet_2411220643_TDK-InvenSense-ICM-45686_C22459454.pdf" target="_blank" rel="noopener">Datasheet</a></div>
+    <div class="row"><span class="ref">U6</span><div class="part"><b>MMC5983MA</b><span>3-axis magnetometer · MEMSIC</span></div><a class="dl" href="https://www.memsic.com/Public/Uploads/uploadfile/files/20220119/MMC5983MADatasheetRevA.pdf" target="_blank" rel="noopener">Datasheet</a></div>
+    <div class="row"><span class="ref">U4</span><div class="part"><b>ADXL375BCCZ</b><span>±200 g 3-axis accelerometer · Analog Devices</span></div><a class="dl" href="https://www.analog.com/media/en/technical-documentation/data-sheets/adxl375.pdf" target="_blank" rel="noopener">Datasheet</a></div>
+    <div class="row"><span class="ref">U3</span><div class="part"><b>MS5607-02BA03</b><span>Barometric pressure sensor / altimeter · TE Connectivity</span></div><a class="dl" href="https://www.mouser.com/datasheet/2/418/6/ENG_DS_MS5607_02BA03_B3-1134558.pdf" target="_blank" rel="noopener">Datasheet</a></div>
+  </div>
+
+  <h2>Power</h2>
+  <div class="grid">
+    <div class="row"><span class="ref">U2</span><div class="part"><b>TPS62901RPJR</b><span>3–17 V, high-efficiency, low-IQ buck converter · Texas Instruments</span></div><a class="dl" href="https://www.ti.com/lit/ds/symlink/tps62901.pdf" target="_blank" rel="noopener">Datasheet</a></div>
+    <div class="row"><span class="ref">U10</span><div class="part"><b>TLV75733PDBV</b><span>3.3 V, 1 A low-dropout regulator (TLV757P family) · Texas Instruments</span></div><a class="dl" href="https://www.ti.com/lit/ds/symlink/tlv757p.pdf" target="_blank" rel="noopener">Datasheet</a></div>
+  </div>
+
+  <h2>Logic, USB & Signal</h2>
+  <div class="grid">
+    <div class="row"><span class="ref">U7</span><div class="part"><b>SN74AHCT125DR</b><span>Quad bus buffer, 3-state outputs · Texas Instruments</span></div><a class="dl" href="https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf" target="_blank" rel="noopener">Datasheet</a></div>
+    <div class="row"><span class="ref">U5</span><div class="part"><b>SN74LVC1G32MDBVREP</b><span>Single 2-input OR gate (Enhanced Product) · Texas Instruments</span></div><a class="dl" href="https://www.ti.com/lit/ds/symlink/sn74lvc1g32-ep.pdf" target="_blank" rel="noopener">Datasheet</a></div>
+    <div class="row"><span class="ref">D1</span><div class="part"><b>USBLC6-2SC6</b><span>Very-low-capacitance USB ESD protection · STMicroelectronics</span></div><a class="dl" href="https://www.st.com/resource/en/datasheet/usblc6-2.pdf" target="_blank" rel="noopener">Datasheet</a></div>
+  </div>
+
+  <h2>Discretes</h2>
+  <div class="grid">
+    <div class="row"><span class="ref">U11,U12</span><div class="part"><b>NRVB120VLSFT1G</b><span>20 V / 1 A Schottky rectifier · onsemi</span></div><a class="dl" href="https://www.onsemi.com/pdf/datasheet/mbr120vlsft1-d.pdf" target="_blank" rel="noopener">Datasheet</a></div>
+    <div class="row"><span class="ref">D2</span><div class="part"><b>MMSZ4683T1G</b><span>3.3 V, 500 mW Zener diode · onsemi</span></div><a class="dl" href="https://www.onsemi.com/pdf/datasheet/mmsz4678t1-d.pdf" target="_blank" rel="noopener">Datasheet (series)</a></div>
+    <div class="row"><span class="ref">Q1,Q2,Q3</span><div class="part"><b>SI7232DN-T1-GE3</b><span>Dual N-channel MOSFET · Vishay Siliconix</span></div><a class="dl alt" href="https://www.lcsc.com/datasheet/C144854.pdf" target="_blank" rel="noopener">Datasheet (LCSC)</a></div>
+    <div class="row"><span class="ref">D3</span><div class="part"><b>Schottky diode</b><span>550 mV @ 3 A · LCSC C466502</span></div><a class="dl alt" href="https://www.lcsc.com/datasheet/C466502.pdf" target="_blank" rel="noopener">Datasheet (LCSC)</a></div>
+    <div class="row"><span class="ref">L1</span><div class="part"><b>CKCS4018-1UH/N</b><span>1 µH power inductor · Sunlord · LCSC C354573</span></div><a class="dl alt" href="https://www.lcsc.com/datasheet/C354573.pdf" target="_blank" rel="noopener">Datasheet (LCSC)</a></div>
+    <div class="row"><span class="ref">X1</span><div class="part"><b>1XXD32000MBA</b><span>32 MHz oscillator/crystal · LCSC C253694</span></div><a class="dl alt" href="https://www.lcsc.com/datasheet/C253694.pdf" target="_blank" rel="noopener">Datasheet (LCSC)</a></div>
+  </div>
+
+  <h2>Connectors, Switches & Audio</h2>
+  <div class="grid">
+    <div class="row"><span class="ref">J5</span><div class="part"><b>USB Type-C 16P receptacle</b><span>USB-C connector · LCSC C2927039</span></div><a class="dl alt" href="https://www.lcsc.com/datasheet/C2927039.pdf" target="_blank" rel="noopener">Datasheet (LCSC)</a></div>
+    <div class="row"><span class="ref">Card1</span><div class="part"><b>TF-015</b><span>microSD (TF) card socket · LCSC C113206</span></div><a class="dl alt" href="https://www.lcsc.com/datasheet/C113206.pdf" target="_blank" rel="noopener">Datasheet (LCSC)</a></div>
+    <div class="row"><span class="ref">J6</span><div class="part"><b>436500201</b><span>microSD push-pull card connector · Molex</span></div><a class="dl" href="https://docs.rs-online.com/cb53/0900766b815e9ebe.pdf" target="_blank" rel="noopener">Datasheet</a></div>
+    <div class="row"><span class="ref">SW1,SW2</span><div class="part"><b>SKRKAEE020</b><span>SMD tactile switch (SKRK series) · Alps Alpine</span></div><a class="dl alt" href="https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKRKAEE020_C115357.pdf" target="_blank" rel="noopener">Datasheet (LCSC)</a></div>
+    <div class="row"><span class="ref">CN1,CN2</span><div class="part"><b>PA001-4P</b><span>4-pin connector · LCSC C173286</span></div><a class="dl alt" href="https://www.lcsc.com/datasheet/C173286.pdf" target="_blank" rel="noopener">Datasheet (LCSC)</a></div>
+    <div class="row"><span class="ref">BUZZER1</span><div class="part"><b>PS1440P02BT</b><span>Piezoelectric buzzer, 3 V / 4 kHz (PS14 series) · TDK</span></div><a class="dl" href="https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf" target="_blank" rel="noopener">Datasheet</a></div>
+  </div>
+</div>
+</body>
+</html>
