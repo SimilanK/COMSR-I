@@ -26,12 +26,34 @@ duplicates them.
 
 ## Known constraint — read before touching the PCB file
 
-**This chat's file-bridge access to `Main board.kicad_pcb` / `CURSR-Vboard.kicad_pcb`
-is unreliable/blocked** (uncertain root cause — never confirmed, don't repeat
-the old "hardlink" claim as fact). Working arrangement: whichever
-session/chat actually has working write access to the `.kicad_pcb` does the
-PCB edits; this chat only produces paste-ready values and instructions.
-Check this at the start of a new chat rather than assuming either way.
+**Root cause now confirmed (2026-09-11): not OneDrive, not this folder
+specifically.** The connected-folder bridge (`device_bash`) fails at the VM
+mount layer itself — error `sandbox-helper: no Plan9 drive shares mounted` —
+for every connected path simultaneously (tested against the OneDrive-labeled
+path, the plain `Desktop` connection, and the shell's own home scratch
+directory; all fail identically, before any command runs). This is a known
+platform bug tracked by Anthropic (Windows update from ~Sept 8 broke the
+Plan9/virtiofs mount on Windows Cowork sessions — see GitHub issues
+anthropics/claude-code#92958, #92984, #93221). It is NOT caused by OneDrive
+sync, folder permissions, or anything about this specific project — do not
+re-investigate OneDrive as a cause.
+
+**Separately (cosmetic, not the bug above):** this task's Context panel also
+carries a stale `C:\Users\simil\OneDrive\Desktop\Main board` folder entry
+that doesn't exist on disk — leftover from an earlier misconfigured
+connection. There is currently no UI way to remove a folder from a task's
+context (open feature request: anthropics/claude-code#40043) — ignore that
+pill, it's harmless clutter, not the cause of the mount failure.
+
+**Korya is migrating the project to a new folder path** to work around/retest
+this — check with Korya what the new path is before assuming the old
+`C:\Users\simil\Desktop\Main board` still applies.
+
+**Working arrangement until the mount bug is fixed:** `device_bash` (in-place
+shell edits) does not work. Use `device_stage_files` → edit in the cloud
+workspace → `device_commit_files` instead — this path is unaffected and
+works fine. Whichever session is doing PCB edits should use that stage/edit/
+commit flow rather than waiting for `device_bash` to start working.
 
 ## Safety item — unresolved, blocking
 

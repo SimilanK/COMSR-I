@@ -1622,7 +1622,7 @@
 		)
 		(uuid "1ff60cba-31a9-428a-8477-dd2902bafd7e")
 	)
-	(text "B3 · ICM45686 - IMU (SPI)"
+	(text "B3 · ICM45686 - IMU (SPI1)"
 		(exclude_from_sim no)
 		(at 38.1 86.36 0)
 		(effects
