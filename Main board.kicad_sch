@@ -5,7 +5,7 @@
 	(uuid "1f0f75a1-1d31-43c9-b0ad-8555040f61e7")
 	(paper "A3")
 	(title_block
-		(title "CANSR-I SRAD Flight Computer")
+		(title "COMSR-I")
 		(rev "1.1.31")
 	)
 	(lib_symbols
