@@ -47586,6 +47586,14 @@
 		(uuid "de6f27b5-dfe5-4526-b208-f874b5d1d780")
 	)
 	(segment
+		(start 129.1205 77.976)
+		(end 127.5175 77.976)
+		(width 2.5)
+		(layer "In2.Cu")
+		(net 25)
+		(uuid "8d17f5ba-5947-4277-b23a-fc0cea1ec80b")
+	)
+	(segment
 		(start 137.398 60.198)
 		(end 137.4 60.2)
 		(width 0.2)
