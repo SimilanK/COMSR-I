@@ -1,0 +1,64 @@
+(version 1)
+# COMSR-I courtyard spacing, STRICT. Source: JLCPCB "minimum spacing for SMD components" pair table.
+# Pairs are mutually exclusive (rule order does not matter). Anything not listed gets only KiCad overlap check (gap >= 0).
+# Unchecked on purpose: THT, connectors, Q1/Q2, U9, U3, inductor, switches, card slot, oscillators, SMA/SOD diodes, holes.
+
+# T1 passive<=0805 with passive<=0805
+(rule "jlc_P_P_0p18mm"
+  (constraint courtyard_clearance (min 0.18mm))
+  (condition "(A.Reference == 'R?' || A.Reference == 'R1?' || A.Reference == 'R2?' || A.Reference == 'R3?' || A.Reference == 'R4?' || A.Reference == 'C?' || A.Reference == 'C1?' || A.Reference == 'C2?' || A.Reference == 'C3?' || A.Reference == 'FB1' || A.Reference == 'JP1' || A.Reference == 'D4' || A.Reference == 'D5' || A.Reference == 'D6' || A.Reference == 'D7') && (B.Reference == 'R?' || B.Reference == 'R1?' || B.Reference == 'R2?' || B.Reference == 'R3?' || B.Reference == 'R4?' || B.Reference == 'C?' || B.Reference == 'C1?' || B.Reference == 'C2?' || B.Reference == 'C3?' || B.Reference == 'FB1' || B.Reference == 'JP1' || B.Reference == 'D4' || B.Reference == 'D5' || B.Reference == 'D6' || B.Reference == 'D7')"))
+
+# T4 passive with SOT
+(rule "jlc_P_SOT_0p2mm"
+  (constraint courtyard_clearance (min 0.2mm))
+  (condition "((A.Reference == 'R?' || A.Reference == 'R1?' || A.Reference == 'R2?' || A.Reference == 'R3?' || A.Reference == 'R4?' || A.Reference == 'C?' || A.Reference == 'C1?' || A.Reference == 'C2?' || A.Reference == 'C3?' || A.Reference == 'FB1' || A.Reference == 'JP1' || A.Reference == 'D4' || A.Reference == 'D5' || A.Reference == 'D6' || A.Reference == 'D7') && (B.Reference == 'D1' || B.Reference == 'U10')) || ((A.Reference == 'D1' || A.Reference == 'U10') && (B.Reference == 'R?' || B.Reference == 'R1?' || B.Reference == 'R2?' || B.Reference == 'R3?' || B.Reference == 'R4?' || B.Reference == 'C?' || B.Reference == 'C1?' || B.Reference == 'C2?' || B.Reference == 'C3?' || B.Reference == 'FB1' || B.Reference == 'JP1' || B.Reference == 'D4' || B.Reference == 'D5' || B.Reference == 'D6' || B.Reference == 'D7'))"))
+
+# T5 passive with SOP/SOIC
+(rule "jlc_P_SOP_0p4mm"
+  (constraint courtyard_clearance (min 0.4mm))
+  (condition "((A.Reference == 'R?' || A.Reference == 'R1?' || A.Reference == 'R2?' || A.Reference == 'R3?' || A.Reference == 'R4?' || A.Reference == 'C?' || A.Reference == 'C1?' || A.Reference == 'C2?' || A.Reference == 'C3?' || A.Reference == 'FB1' || A.Reference == 'JP1' || A.Reference == 'D4' || A.Reference == 'D5' || A.Reference == 'D6' || A.Reference == 'D7') && (B.Reference == 'U7')) || ((A.Reference == 'U7') && (B.Reference == 'R?' || B.Reference == 'R1?' || B.Reference == 'R2?' || B.Reference == 'R3?' || B.Reference == 'R4?' || B.Reference == 'C?' || B.Reference == 'C1?' || B.Reference == 'C2?' || B.Reference == 'C3?' || B.Reference == 'FB1' || B.Reference == 'JP1' || B.Reference == 'D4' || B.Reference == 'D5' || B.Reference == 'D6' || B.Reference == 'D7'))"))
+
+# T6 passive with QFP
+(rule "jlc_P_QFP_0p5mm"
+  (constraint courtyard_clearance (min 0.5mm))
+  (condition "((A.Reference == 'R?' || A.Reference == 'R1?' || A.Reference == 'R2?' || A.Reference == 'R3?' || A.Reference == 'R4?' || A.Reference == 'C?' || A.Reference == 'C1?' || A.Reference == 'C2?' || A.Reference == 'C3?' || A.Reference == 'FB1' || A.Reference == 'JP1' || A.Reference == 'D4' || A.Reference == 'D5' || A.Reference == 'D6' || A.Reference == 'D7') && (B.Reference == 'U1')) || ((A.Reference == 'U1') && (B.Reference == 'R?' || B.Reference == 'R1?' || B.Reference == 'R2?' || B.Reference == 'R3?' || B.Reference == 'R4?' || B.Reference == 'C?' || B.Reference == 'C1?' || B.Reference == 'C2?' || B.Reference == 'C3?' || B.Reference == 'FB1' || B.Reference == 'JP1' || B.Reference == 'D4' || B.Reference == 'D5' || B.Reference == 'D6' || B.Reference == 'D7'))"))
+
+# T7 passive with QFN
+(rule "jlc_P_QFN_1mm"
+  (constraint courtyard_clearance (min 1mm))
+  (condition "((A.Reference == 'R?' || A.Reference == 'R1?' || A.Reference == 'R2?' || A.Reference == 'R3?' || A.Reference == 'R4?' || A.Reference == 'C?' || A.Reference == 'C1?' || A.Reference == 'C2?' || A.Reference == 'C3?' || A.Reference == 'FB1' || A.Reference == 'JP1' || A.Reference == 'D4' || A.Reference == 'D5' || A.Reference == 'D6' || A.Reference == 'D7') && (B.Reference == 'U2')) || ((A.Reference == 'U2') && (B.Reference == 'R?' || B.Reference == 'R1?' || B.Reference == 'R2?' || B.Reference == 'R3?' || B.Reference == 'R4?' || B.Reference == 'C?' || B.Reference == 'C1?' || B.Reference == 'C2?' || B.Reference == 'C3?' || B.Reference == 'FB1' || B.Reference == 'JP1' || B.Reference == 'D4' || B.Reference == 'D5' || B.Reference == 'D6' || B.Reference == 'D7'))"))
+
+# T5 SOT with SOT
+(rule "jlc_SOT_SOT_0p4mm"
+  (constraint courtyard_clearance (min 0.4mm))
+  (condition "(A.Reference == 'D1' || A.Reference == 'U10') && (B.Reference == 'D1' || B.Reference == 'U10')"))
+
+# SOT with SOP/SOIC
+(rule "jlc_SOT_SOP_0p4mm"
+  (constraint courtyard_clearance (min 0.4mm))
+  (condition "((A.Reference == 'D1' || A.Reference == 'U10') && (B.Reference == 'U7')) || ((A.Reference == 'U7') && (B.Reference == 'D1' || B.Reference == 'U10'))"))
+
+# SOT with QFP
+(rule "jlc_SOT_QFP_1mm"
+  (constraint courtyard_clearance (min 1mm))
+  (condition "((A.Reference == 'D1' || A.Reference == 'U10') && (B.Reference == 'U1')) || ((A.Reference == 'U1') && (B.Reference == 'D1' || B.Reference == 'U10'))"))
+
+# T7 SOT with QFN
+(rule "jlc_SOT_QFN_1mm"
+  (constraint courtyard_clearance (min 1mm))
+  (condition "((A.Reference == 'D1' || A.Reference == 'U10') && (B.Reference == 'U2')) || ((A.Reference == 'U2') && (B.Reference == 'D1' || B.Reference == 'U10'))"))
+
+# QFP with SOP/SOIC
+(rule "jlc_SOP_QFP_1p25mm"
+  (constraint courtyard_clearance (min 1.25mm))
+  (condition "((A.Reference == 'U7') && (B.Reference == 'U1')) || ((A.Reference == 'U1') && (B.Reference == 'U7'))"))
+
+# T7 QFN with SOP/SOIC
+(rule "jlc_SOP_QFN_1mm"
+  (constraint courtyard_clearance (min 1mm))
+  (condition "((A.Reference == 'U7') && (B.Reference == 'U2')) || ((A.Reference == 'U2') && (B.Reference == 'U7'))"))
+
+# QFN with QFP
+(rule "jlc_QFP_QFN_1mm"
+  (constraint courtyard_clearance (min 1mm))
+  (condition "((A.Reference == 'U1') && (B.Reference == 'U2')) || ((A.Reference == 'U2') && (B.Reference == 'U1'))"))

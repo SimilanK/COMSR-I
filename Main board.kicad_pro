@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.8,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 0.0,
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -64,7 +64,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -631,26 +631,22 @@
       },
       {
         "netclass": "Servo",
-        "pattern": "SERVO1"
-      },
-      {
-        "netclass": "Servo",
         "pattern": "SERVO2"
       },
       {
-        "netclass": "Pyro",
+        "netclass": "USB",
         "pattern": "FIRE_A"
       },
       {
-        "netclass": "Pyro",
+        "netclass": "USB",
         "pattern": "FIRE_B"
       },
       {
-        "netclass": "Pyro",
+        "netclass": "USB",
         "pattern": "FIRE_C"
       },
       {
-        "netclass": "Pyro",
+        "netclass": "USB",
         "pattern": "FIRE_D"
       },
       {

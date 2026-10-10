@@ -16731,6 +16731,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 165.1) (xy 274.32 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc07e7d-9631-4828-acbd-85900be7f695")
+	)
+	(wire
+		(pts
 			(xy 153.67 229.87) (xy 148.59 229.87)
 		)
 		(stroke
@@ -17158,6 +17168,16 @@
 			(type default)
 		)
 		(uuid "374da301-e9f4-4e61-a214-b6cd8c70b676")
+	)
+	(wire
+		(pts
+			(xy 273.05 170.18) (xy 274.32 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ba5a04-60b3-44ec-a8a4-473cf5739077")
 	)
 	(wire
 		(pts
@@ -18581,6 +18601,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 125.73) (xy 128.27 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8d7653-d1f5-4488-a342-8e9a65d958e5")
+	)
+	(wire
+		(pts
 			(xy 273.05 99.06) (xy 274.32 99.06)
 		)
 		(stroke
@@ -19991,6 +20021,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 133.35) (xy 128.27 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64ecf3c-432a-4895-9d12-a5ba7904fd8e")
+	)
+	(wire
+		(pts
 			(xy 339.09 86.36) (xy 349.25 86.36)
 		)
 		(stroke
@@ -20058,16 +20098,6 @@
 			(type default)
 		)
 		(uuid "ebb55bf8-0d29-4f27-beab-ccbe007cb455")
-	)
-	(wire
-		(pts
-			(xy 116.84 125.73) (xy 128.27 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec19d2d8-872d-43fd-a04d-320977f18bf5")
 	)
 	(wire
 		(pts
@@ -20328,16 +20358,6 @@
 			(type default)
 		)
 		(uuid "f9c19fc5-cb0e-495f-b81b-4ce6b28d60c3")
-	)
-	(wire
-		(pts
-			(xy 116.84 133.35) (xy 128.27 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb008522-de59-4b03-983e-868f839003b1")
 	)
 	(wire
 		(pts
@@ -21529,7 +21549,7 @@
 	)
 	(global_label "FIRE_D"
 		(shape output)
-		(at 273.05 165.1 0)
+		(at 274.32 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21539,7 +21559,7 @@
 		)
 		(uuid "93fd2d45-70e6-4e1d-905f-a1cdc0b57f0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.3852 165.1 0)
+			(at 283.6552 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21969,7 +21989,7 @@
 	)
 	(global_label "PWM2"
 		(shape input)
-		(at 116.84 133.35 180)
+		(at 120.65 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21979,7 +21999,7 @@
 		)
 		(uuid "b75ef845-4d9a-409e-8dcc-c3932b753eb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.4725 133.35 0)
+			(at 112.2825 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22299,7 +22319,7 @@
 	)
 	(global_label "PWM1"
 		(shape input)
-		(at 116.84 125.73 180)
+		(at 120.65 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22309,7 +22329,7 @@
 		)
 		(uuid "e66da45d-5aba-4217-9cd2-c1a02028f7dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.4725 125.73 0)
+			(at 112.2825 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22431,7 +22451,7 @@
 	)
 	(global_label "FIRE_C"
 		(shape output)
-		(at 273.05 170.18 0)
+		(at 274.32 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22441,7 +22461,7 @@
 		)
 		(uuid "f9e6c211-d09c-4b3f-991d-a67cd97c3201")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.3852 170.18 0)
+			(at 283.6552 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29507,7 +29527,7 @@
 			)
 		)
 		(property "Digikey Part No." "311-10.0KLRCT-ND"
-			(at 392.43 41.91 0)
+			(at 388.62 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38629,7 +38649,7 @@
 			)
 		)
 		(property "Digikey Part No." "311-10.0KLRCT-ND"
-			(at 392.43 48.26 0)
+			(at 409.448 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39550,7 +39570,7 @@
 			)
 		)
 		(property "Digikey Part No." "311-10.0KLRCT-ND"
-			(at 392.43 34.29 0)
+			(at 404.622 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40285,7 +40305,7 @@
 		(dnp no)
 		(uuid "ac2d2d91-4399-452b-aea3-bcc116f04387")
 		(property "Reference" "R9"
-			(at 392.43 24.765 90)
+			(at 391.922 25.146 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40538,7 +40558,7 @@
 			)
 		)
 		(property "Digikey Part No." "311-10.0KLRCT-ND"
-			(at 392.43 27.94 0)
+			(at 376.936 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49315,7 +49335,7 @@
 			)
 		)
 		(property "Digikey Part No." "311-10.0KLRCT-ND"
-			(at 392.43 54.61 0)
+			(at 402.082 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
