@@ -1,0 +1,124 @@
+(footprint "SW-TH_1101M2S3CQE2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C&K 1101M2S3CQE2 SPDT slide switch, 6A @ 28VDC, body 12.7x6.6mm, pitch 4.7mm, slotted pads. Pad data from LCSC C221538 (JLCEDA/EasyEDA Official Library, https://easyeda.com , https://lceda.cn/)")
+	(tags "slide switch SPDT THT C&K 1101")
+	(property "Reference" "REF**"
+		(at 0 -4.4 0)
+		(layer "F.SilkS")
+		(uuid "408f1b83-f9c2-4922-9542-04e6b442f1d1")
+		(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+	)
+	(property "Value" "SW-TH_1101M2S3CQE2"
+		(at 0 4.6 0)
+		(layer "F.Fab")
+		(uuid "c714d626-849b-4966-83f1-56e8dffb2769")
+		(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02968fff-e1b0-4c71-898a-4db0a0a79493")
+		(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+	)
+	(property "Description" "C&K 1101M2S3CQE2 SPDT slide switch, 6A @ 28VDC, body 12.7x6.6mm, pitch 4.7mm, slotted pads. Pad data from LCSC C221538 (JLCEDA/EasyEDA Official Library, https://easyeda.com , https://lceda.cn/)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c01e7061-9796-4b35-b46e-28c611cafb6e")
+		(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.35 -3.3)
+		(end 6.35 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3c9296c0-c63b-41d3-92c7-a765b175d196")
+	)
+	(fp_rect
+		(start -6.46 -3.41)
+		(end 6.46 3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a0a43592-65da-4a02-b785-ee80600a5596")
+	)
+	(fp_rect
+		(start -6.6 -3.55)
+		(end 6.6 3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "128297de-f887-4e84-b5b2-ece678693e2d")
+	)
+	(fp_circle
+		(center -4.7 4)
+		(end -4.45 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "73bceeaa-3185-4a2b-89c4-1d325a052c2e")
+	)
+	(pad "1" thru_hole oval
+		(at -4.7 0 0)
+		(size 2 2.5)
+		(drill oval 1.2 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d59de9a-70fd-4b92-b207-426684c8a8e9")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0 0)
+		(size 2 2.5)
+		(drill oval 1.2 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16b78a18-2493-4349-85fe-b6dc546e0a78")
+	)
+	(pad "3" thru_hole oval
+		(at 4.7 0 0)
+		(size 2 2.5)
+		(drill oval 1.2 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b4891833-85b4-43ca-bbb4-3b269446427f")
+	)
+	(embedded_fonts no)
+)

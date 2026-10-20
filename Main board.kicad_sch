@@ -21533,7 +21533,7 @@
 			)
 		)
 	)
-	(global_label "PWM2"
+	(global_label "SERVO2"
 		(shape output)
 		(at 227.33 99.06 180)
 		(fields_autoplaced yes)
@@ -21545,7 +21545,7 @@
 		)
 		(uuid "90669d96-af32-422f-bdde-a0496f2bc620")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.9625 99.06 0)
+			(at 217.0877 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21753,7 +21753,7 @@
 			)
 		)
 	)
-	(global_label "PWM1"
+	(global_label "SERVO1"
 		(shape output)
 		(at 227.33 93.98 180)
 		(fields_autoplaced yes)
@@ -21765,7 +21765,7 @@
 		)
 		(uuid "9e81af5e-970b-48bf-8d61-45bc4ba3c1c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.9625 93.98 0)
+			(at 217.0877 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22548,7 +22548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:SW-TH_3P-L8.8-W3.9-P2.50_SS12D00G3"
+		(property "Footprint" "Mainboard_local:SW-TH_1101M2S3CQE2"
 			(at 171.45 162.56 0)
 			(effects
 				(font
@@ -22917,7 +22917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:SW-TH_3P-L8.8-W3.9-P2.50_SS12D00G3"
+		(property "Footprint" "Mainboard_local:SW-TH_1101M2S3CQE2"
 			(at 86.36 163.83 0)
 			(effects
 				(font
@@ -24221,9 +24221,9 @@
 		(at 153.67 137.16 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "15ab6e45-fb69-45e9-9a49-dc97ee072043")
 		(property "Reference" "#PWR84"
@@ -24287,9 +24287,9 @@
 		(at 160.02 135.89 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "15c726d8-9045-4ed3-a6aa-51810851fd77")
 		(property "Reference" "#PWR82"
@@ -24433,7 +24433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "436500201"
+		(property "Value" "XT30UPB-F"
 			(at 43.18 59.055 90)
 			(effects
 				(font
@@ -24452,7 +24452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500201?display=pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C108769.html"
 			(at 48.26 41.91 0)
 			(effects
 				(font
@@ -24527,7 +24527,7 @@
 				)
 			)
 		)
-		(property "Digikey Part No." "WM1865-ND"
+		(property "Digikey Part No." "5912-DFT-XT30UPB-F30.G.Y-ND"
 			(at 27.305 48.26 0)
 			(effects
 				(font
@@ -24543,7 +24543,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C108769"
 			(at 48.26 41.91 0)
 			(effects
 				(font
@@ -26215,9 +26215,9 @@
 		(lib_id "power:+5V")
 		(at 160.02 120.65 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28150d30-2183-4509-bf29-c954252530e1")
@@ -28848,7 +28848,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C354573"
+		(property "LCSC" "C354578"
 			(at 108.585 73.66 0)
 			(effects
 				(font
@@ -29462,9 +29462,9 @@
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
 		(at 160.02 130.81 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46f6a472-8910-48b5-8555-ed1726c5250f")
@@ -30910,9 +30910,9 @@
 		(at 121.92 140.97 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "5e853e76-21bb-4b68-baf0-aa94e0aad80a")
 		(property "Reference" "#PWR83"
@@ -34195,7 +34195,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22764"
+		(property "LCSC" "C482816"
 			(at 171.45 59.69 0)
 			(effects
 				(font
@@ -34204,7 +34204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "156127"
+		(property "Stock" ""
 			(at 171.45 59.69 0)
 			(effects
 				(font
@@ -34213,7 +34213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.004USD"
+		(property "Price" ""
 			(at 171.45 59.69 0)
 			(effects
 				(font
@@ -34249,7 +34249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Class" "Preferred Component"
+		(property "Class" ""
 			(at 171.45 59.69 0)
 			(effects
 				(font
@@ -34267,7 +34267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 171.45 59.69 0)
 			(effects
 				(font
@@ -34276,7 +34276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0603WAF1101T5E"
+		(property "Part" "RC0603FR-0726K1L"
 			(at 171.45 57.785 90)
 			(effects
 				(font
@@ -34285,7 +34285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "1.1kΩ"
+		(property "Resistance" "26.1kΩ"
 			(at 171.45 59.69 0)
 			(effects
 				(font
@@ -35220,9 +35220,9 @@
 		(lib_id "PCM_JLCPCB-Resistors:0402,75Ω")
 		(at 111.76 128.27 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "81dd379d-24a1-491d-b340-6ad4b2ff82c5")
 		(property "Reference" "R5"
@@ -36578,7 +36578,7 @@
 				)
 			)
 		)
-		(property "Digikey Part No." "WM10667-ND"
+		(property "Digikey Part No." "455-B2B-XH-A-ND"
 			(at 137.16 266.446 0)
 			(effects
 				(font
@@ -36595,7 +36595,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C158012"
 			(at 140.97 259.08 0)
 			(effects
 				(font
@@ -39134,9 +39134,9 @@
 		(lib_id "PCM_JLCPCB-Resistors:0402,75Ω")
 		(at 110.49 135.89 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "a6dced8c-6f66-4136-90c3-a87ced8cf4e5")
 		(property "Reference" "R8"
@@ -39771,7 +39771,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22764"
+		(property "LCSC" "C165743"
 			(at 170.18 46.99 0)
 			(effects
 				(font
@@ -39780,7 +39780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "156127"
+		(property "Stock" ""
 			(at 170.18 46.99 0)
 			(effects
 				(font
@@ -39789,7 +39789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.004USD"
+		(property "Price" ""
 			(at 170.18 46.99 0)
 			(effects
 				(font
@@ -39825,7 +39825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Class" "Preferred Component"
+		(property "Class" ""
 			(at 170.18 46.99 0)
 			(effects
 				(font
@@ -39843,7 +39843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 170.18 46.99 0)
 			(effects
 				(font
@@ -39852,7 +39852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0603WAF1101T5E"
+		(property "Part" "RC0603FR-0776K8L"
 			(at 170.18 45.085 90)
 			(effects
 				(font
@@ -39861,7 +39861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "1.1kΩ"
+		(property "Resistance" "76.8kΩ"
 			(at 170.18 46.99 0)
 			(effects
 				(font
@@ -40084,9 +40084,9 @@
 		(lib_id "PCM_JLCPCB-Capacitors:0402,10uF")
 		(at 172.72 138.43 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "a8e30a01-bbbd-4b5e-be7a-8e2e088ed3ae")
 		(property "Reference" "C25"
@@ -40645,9 +40645,9 @@
 		(at 172.72 142.24 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "aee4c478-3021-4c6b-ad95-365f488b6252")
 		(property "Reference" "#PWR86"
@@ -47178,9 +47178,9 @@
 		(lib_id "power:+5V")
 		(at 172.72 134.62 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec05346c-20cb-4684-beea-3a7efbd50f00")
@@ -47244,9 +47244,9 @@
 		(lib_id "EasyEDA:SN74AHCT125DR")
 		(at 138.43 130.81 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "eca6d02d-7ec6-44ec-b8b0-32e9090b84cd")
 		(property "Reference" "U7"
