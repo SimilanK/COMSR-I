@@ -15222,6 +15222,16 @@
 		)
 		(uuid "63bfcbdc-7a41-4782-910c-c2ef2d4b81e9")
 	)
+	(text "Output TO BEC"
+		(exclude_from_sim no)
+		(at 99.06 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "686c9219-5068-4c3c-9938-66c392266f56")
+	)
 	(text "Switch R35 to 220 Ohm if turn-on time too high"
 		(exclude_from_sim no)
 		(at 33.02 175.26 0)
