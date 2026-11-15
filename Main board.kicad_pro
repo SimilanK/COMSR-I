@@ -38,7 +38,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.7,
+          "height": 0.95,
           "width": 0.9
         },
         "silk_line_width": 0.1,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.35
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|152800000|55900000|89e7de89-de59-4ac5-a03a-38ac8d22d197|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|160800000|55890000|ff8d42da-821d-43d4-8b50-aab6d61ef1f7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "hole_clearance|164175000|73625000|c8374ad6-8fd2-490c-884c-6caa8430bc03|949c7afc-d092-415c-bf94-21d4cda2ce7a",
+          ""
+        ],
+        [
+          "hole_clearance|164175000|79525000|f22f78cd-e4a7-4f89-a80d-97ce095a45a2|48f4ecba-2f42-406b-b80f-6536663a7aae",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -533,7 +550,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -550,7 +567,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.4,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -567,7 +584,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -611,10 +628,6 @@
         "pattern": "VBAT+"
       },
       {
-        "netclass": "Battery",
-        "pattern": "VBAT-"
-      },
-      {
         "netclass": "Power",
         "pattern": "+3V3"
       },
@@ -631,32 +644,44 @@
         "pattern": "+3.3VA"
       },
       {
-        "netclass": "Servo",
-        "pattern": "SERVO2"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "FIRE_A"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "FIRE_B"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "FIRE_C"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "FIRE_D"
+        "netclass": "Power",
+        "pattern": "Net-(U2-SW)"
       },
       {
         "netclass": "Pyro",
         "pattern": "PYRO+"
       },
       {
-        "netclass": "USB",
+        "netclass": "Pyro",
         "pattern": "PYRO_GND"
+      },
+      {
+        "netclass": "Pyro",
+        "pattern": "Net-(CN1-Pad1)"
+      },
+      {
+        "netclass": "Pyro",
+        "pattern": "Net-(CN1-Pad2)"
+      },
+      {
+        "netclass": "Pyro",
+        "pattern": "Net-(CN2-Pad5)"
+      },
+      {
+        "netclass": "Pyro",
+        "pattern": "Net-(CN2-Pad6)"
+      },
+      {
+        "netclass": "Servo",
+        "pattern": "BEC+"
+      },
+      {
+        "netclass": "Servo",
+        "pattern": "Net-(JP3-C)"
+      },
+      {
+        "netclass": "Servo",
+        "pattern": "Net-(JP4-C)"
       },
       {
         "netclass": "USB",
@@ -681,10 +706,6 @@
       {
         "netclass": "HS_Clock",
         "pattern": "LSE_IN"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Net-(U2-SW)"
       }
     ]
   },
