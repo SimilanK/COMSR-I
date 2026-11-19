@@ -386,7 +386,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C9900023641"
+			(property "LCSC Part" "C97627"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -2798,7 +2798,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C22459454"
 			(at 98.425 112.395 0)
 			(effects
 				(font
@@ -2910,7 +2910,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C9900023641"
+		(property "LCSC Part" "C97627"
 			(at 54.61 55.245 0)
 			(effects
 				(font
@@ -2991,7 +2991,7 @@
 				)
 			)
 		)
-		(property "LCSC" "-"
+		(property "LCSC" "C97627"
 			(at 54.61 40.005 0)
 			(effects
 				(font
@@ -3151,7 +3151,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744 (OUT OF STOCK)"
+		(property "LCSC" "C406733"
 			(at 154.305 117.475 0)
 			(effects
 				(font
@@ -4243,7 +4243,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744 (OUT OF STOCK)"
+		(property "LCSC" "C406733"
 			(at 165.1 106.68 0)
 			(effects
 				(font
